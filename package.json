@@ -34,8 +34,8 @@
 				"title": "微信读书",
 				"category": "Weixin Read",
 				"icon": {
-					"light": "./assets/icon-light.svg",
-					"dark": "./assets/icon-dark.svg"
+					"light": "assets/icon-light.svg",
+					"dark": "assets/icon-dark.svg"
 				}
 			}
 		],
@@ -61,7 +61,7 @@
 		"lint": "eslint src --ext ts",
 		"test": "node ./out/test/runTest.js"
 	},
-	"icon": "./assets/logo.png",
+	"icon": "assets/logo.png",
 	"devDependencies": {
 		"@types/vscode": "^1.63.0",
 		"@types/glob": "^7.2.0",
